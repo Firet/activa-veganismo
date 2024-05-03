@@ -13,10 +13,11 @@
 https://trello.com/invite/b/S8Ra2DQo/ATTI7d56b70516b814625921b34ba0c991c5C6EC6BE0/app-de-voluntariado-vegan)
 
 
-Este es un proyecto que usa [Next.js](https://nextjs.org/) y es iniciado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Por ahora, este es un proyecto que usa [Next.js](https://nextjs.org/) y es iniciado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## ¿Cómo correr la app?
+## ¿Cómo correr esta app?
 
+Requisitos: Tener [node js](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs) instalado.
 Primero, ejecutamos el servidor de desarrollo:
 
 ```bash
