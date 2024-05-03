@@ -1,3 +1,18 @@
+# 🟢App de voluntariado vegan
+  Una app para encontrar el mejor lugar para voluntariar.
+
+## 🟣Idea principal
+- Hacer que sea más fácil voluntariar en una organización, donar o ayudar
+- Buscar una manera de comunicar varias organizaciones 
+
+## 🔵 ¿Qué se puede hacer en el corto plazo?
+- Cambiar este readme para contar bien como correr la app
+- Analizar la arquitectura de la app. Vamos a usar next/react, vainilla javascript o django?
+- Conectar con una api de mapas (google maps, here maps, open street map)
+- Se puede ver todas las cosas que faltan hacer en [este tablero de tareas](
+https://trello.com/invite/b/S8Ra2DQo/ATTI7d56b70516b814625921b34ba0c991c5C6EC6BE0/app-de-voluntariado-vegan)
+
+
 Este es un proyecto que usa [Next.js](https://nextjs.org/) y es iniciado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## ¿Cómo correr la app?
