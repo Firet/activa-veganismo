@@ -34,7 +34,7 @@ yarn dev
 
 Abrí [http://localhost:3000](http://localhost:3000) con tu navegador para ver el resultado.
 
-Podés comenzar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente a medida que se edita el archivo.
+Podés comenzar a editar la página modificando `src/app/page.tsx`. La página se actualiza automáticamente a medida que se edita el archivo.
 
 Este proyecto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar automáticamente Inter, una fuente personalizada de Google.
 
