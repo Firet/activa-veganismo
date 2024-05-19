@@ -1,0 +1,28 @@
+/* src/styles/navbar.css */
+.navbar {
+  background-color: #EADD98;
+  padding: 1rem;
+  width: 100%; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #000; /* Color negro */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 1.2rem; /* Tamaño de fuente más grande */
+}
+
+/* Estilo para el texto fuera del navbar */
+.page-title {
+  color: #000;
+  font-weight: bold;
+  font-size: 2rem; 
+  margin-top: 5rem; 
+  text-align: center; 
+}
