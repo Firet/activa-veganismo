@@ -4,7 +4,7 @@ import './header.css';
 export default function Header() {
     return (
         <header>
-            <nav className="navbar w-full flex space-evenly items-center">
+            <nav className="navbar w-full flex flex-col space-evenly items-center">
                 <div className="flex justify-center w-full lg:w-auto">
                     <a href="#home">Ser voluntario</a>
                     <a href="#about">Donar</a>
