@@ -1,4 +1,5 @@
 import React from 'react';
+import './mainContent.css';
 
 export default function MainContent() {
     return (
