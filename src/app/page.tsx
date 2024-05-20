@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/navbar.css'; // Asegúrate de que la ruta sea correcta
+import './styles/navbar.css';
 
 export default function Home() {
   return (
@@ -16,7 +16,6 @@ export default function Home() {
         App voluntariado vegano
       </h1>
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        {/* Aquí puedes añadir el contenido principal de la página */}
       </div>
     </main>
   )
