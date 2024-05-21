@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/vegan-volunteerism",
+    basePath: '/docs',
+    assetPrefix: '',
     output: "export",
     reactStrictMode: true,
     distDir: "docs",
