@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from './header.module.css';
+import './header.css';
 import Link from 'next/link';
 
 export default function Header() {
     return (
         <header>
-            <nav className={styles.navbar}>
+            <nav className="navbar flex flex-col space-evenly items-center">
                 <div>
                     <a href="#home">Ser voluntario</a>
                     <a href="#about">Donar</a>
