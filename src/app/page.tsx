@@ -1,14 +1,10 @@
 import React from 'react';
-import Header from '@/components/header/header';
-import MainContent from '@/components/main-content/mainContent';
-// import Footer from '@/components/footer/footer';
 
 export default function Home() {
-  return (
-    <>
-      <Header />
-      <MainContent />
-      {/* <Footer /> */}
-    </>
-  )
+	return (
+		<>
+			<h1 className="page-title">App voluntariado vegano</h1>
+			<p>Home</p>
+		</>
+	);
 }

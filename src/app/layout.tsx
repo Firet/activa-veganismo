@@ -1,19 +1,27 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import './globals.css';
+import Header from '@/components/header/header';
+import Footer from '@/components/footer/footer';
 
 export const metadata: Metadata = {
-  title: "App Voluntariado vegano",
-  description: "Una app para encontrar el mejor lugar para voluntariar",
+	title: 'App Voluntariado vegano',
+	description: 'Una app para encontrar el mejor lugar para voluntariar',
 };
 
 export default function RootLayout({
-  children,
+	children,
 }: Readonly<{
-  children: React.ReactNode;
+	children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
-  );
+	return (
+		<html lang="en">
+			<body>
+				<Header />
+				<main className="flex flex-col items-center p-24">
+					{children}
+				</main>
+				<Footer />
+			</body>
+		</html>
+	);
 }

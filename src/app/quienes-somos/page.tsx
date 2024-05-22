@@ -4,9 +4,7 @@ export default function Page() {
 	return (
 		<>
 			<h1>Quienes Somos</h1>
-			<Link href='/'>
-				Volver al Inicio
-			</Link>
+			<Link href="/">Volver al Inicio</Link>
 		</>
 	);
 }
