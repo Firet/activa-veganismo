@@ -6,5 +6,5 @@ export default function Home() {
 			<h1 className="page-title">App voluntariado vegano</h1>
 			<p>Home</p>
 		</>
-	)
+	);
 }
