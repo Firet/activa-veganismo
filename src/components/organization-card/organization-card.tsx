@@ -66,6 +66,7 @@ export default function OrganizationCard() {
                                 className="organizations-logo"
                                 width={100}
                                 height={24}
+                                unoptimized
                             />
                             <h3>{organization.name}</h3>
                             <p>{organization.description}</p>
