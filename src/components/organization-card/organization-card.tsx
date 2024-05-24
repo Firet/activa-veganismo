@@ -6,15 +6,7 @@ import './organization-card.css';
 export default function OrganizationCard() {
 
     const organizations: Organization[] = [
-        {
-            id: 5,
-            name: 'Amigues por las calles',
-            description:
-                'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
-            logo: 'vegan-volunteerism/amigues-sin-fondo.png',
-            website: 'https://www.instagram.com/amiguesporlascalles/',
-            donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
-        },
+ 
     ];
 
     return (
