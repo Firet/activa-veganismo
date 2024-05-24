@@ -32,7 +32,61 @@ export default function OrganizationCard() {
             logo: '/amigues-sin-fondo.png',
             website: 'https://www.instagram.com/amiguesporlascalles/',
             donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
-        }
+        },
+        {
+            id: 4,
+            name: './ Voicot',
+            description:
+                'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
+            logo: './voicot.png',
+            website: 'https://www.instagram.com/amiguesporlascalles/',
+            donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
+        },
+        {
+            id: 5,
+            name: '{page} Voicot',
+            description:
+                'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
+            logo: 'vegan-volunteerism/amigues-sin-fondo.png',
+            website: 'https://www.instagram.com/amiguesporlascalles/',
+            donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
+        },
+        {
+            id: 6,
+            name: './ Difusion v',
+            description:
+                'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
+            logo: './difu-v.png',
+            website: 'https://www.instagram.com/amiguesporlascalles/',
+            donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
+        },
+        {
+            id: 7,
+            name: '{page} Difusion v',
+            description:
+                'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
+            logo: 'vegan-volunteerism/difu-v.png',
+            website: 'https://www.instagram.com/amiguesporlascalles/',
+            donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
+        },
+        {
+            id: 8,
+            name: './ Amigues por las calles',
+            description:
+                'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
+            logo: './amigues-sin-fondo.png',
+            website: 'https://www.instagram.com/amiguesporlascalles/',
+            donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
+        },
+        {
+            id: 9,
+            name: '{page} Amigues por las calles',
+            description:
+                'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
+            logo: 'vegan-volunteerism/amigues-sin-fondo.png',
+            website: 'https://www.instagram.com/amiguesporlascalles/',
+            donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
+        },
     ];
 
     return (
