@@ -11,7 +11,7 @@ export default function OrganizationCard() {
             name: 'Voicot',
             description:
                 'Organización artística.',
-            logo: '/voicot.JPG',
+            logo: '/icon.png',
             website: 'https://www.voicot.com/',
             donationUrl: 'https://www.voicot.com/donaciones',
         },
@@ -30,6 +30,24 @@ export default function OrganizationCard() {
             description:
                 'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
             logo: '/amigues-sin-fondo.png',
+            website: 'https://www.instagram.com/amiguesporlascalles/',
+            donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
+        },
+        {
+            id: 4,
+            name: 'Amigues por las calles',
+            description:
+                'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
+            logo: './amigues-sin-fondo.png',
+            website: 'https://www.instagram.com/amiguesporlascalles/',
+            donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
+        },
+        {
+            id: 5,
+            name: 'Amigues por las calles',
+            description:
+                'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
+            logo: '../amigues-sin-fondo.png',
             website: 'https://www.instagram.com/amiguesporlascalles/',
             donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
         },
