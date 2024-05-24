@@ -47,6 +47,8 @@ export default function OrganizationCard() {
                                 alt="Logo de organizaciones"
                                 className="organizations-logo"
                                 unoptimized
+                                width={100}
+                                height={24}
                             />
                             <h3>{organization.name}</h3>
                             <p>{organization.description}</p>
