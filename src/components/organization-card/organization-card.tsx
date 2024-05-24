@@ -83,6 +83,7 @@ export default function OrganizationCard() {
                             >
                                 Donar
                             </a>
+                            <img src={organization.logo} alt="logo" width="500" height="600" />
                         </li>
                     ))}
                 </ul>
