@@ -11,7 +11,7 @@ export default function OrganizationCard() {
             name: 'Voicot',
             description:
                 'Organización artística.',
-            logo: '/voicot.JPG',
+            logo: './voicot.png',
             website: 'https://www.voicot.com/',
             donationUrl: 'https://www.voicot.com/donaciones',
         },
@@ -20,7 +20,7 @@ export default function OrganizationCard() {
             name: 'Difusión V',
             description:
                 'Difunde Veganismo.',
-            logo: '/difu-v.JPG',
+            logo: './difu-v.png',
             website: 'https://www.difusionv.com',
             donationUrl: 'https://www.unicef.org/argentina/donar',
         },
@@ -29,7 +29,7 @@ export default function OrganizationCard() {
             name: 'Amigues por las calles',
             description:
                 'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
-            logo: '/amigues-sin-fondo.png',
+            logo: './amigues-sin-fondo.png',
             website: 'https://www.instagram.com/amiguesporlascalles/',
             donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
         },
@@ -46,6 +46,7 @@ export default function OrganizationCard() {
                                 src={organization.logo}
                                 alt="Logo de organizaciones"
                                 className="organizations-logo"
+                                unoptimized
                                 width={100}
                                 height={24}
                             />
