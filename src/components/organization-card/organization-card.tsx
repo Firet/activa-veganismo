@@ -11,7 +11,7 @@ export default function OrganizationCard() {
             name: 'Voicot',
             description:
                 'Organización artística.',
-            logo: '/icon.png',
+            logo: '/voicot.png',
             website: 'https://www.voicot.com/',
             donationUrl: 'https://www.voicot.com/donaciones',
         },
@@ -20,7 +20,7 @@ export default function OrganizationCard() {
             name: 'Difusión V',
             description:
                 'Difunde Veganismo.',
-            logo: '/difu-v.JPG',
+            logo: '/difu-v.png',
             website: 'https://www.difusionv.com',
             donationUrl: 'https://www.unicef.org/argentina/donar',
         },
@@ -32,25 +32,7 @@ export default function OrganizationCard() {
             logo: '/amigues-sin-fondo.png',
             website: 'https://www.instagram.com/amiguesporlascalles/',
             donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
-        },
-        {
-            id: 4,
-            name: 'Amigues por las calles',
-            description:
-                'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
-            logo: './amigues-sin-fondo.png',
-            website: 'https://www.instagram.com/amiguesporlascalles/',
-            donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
-        },
-        {
-            id: 5,
-            name: 'Amigues por las calles',
-            description:
-                'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
-            logo: 'vegan-volunteerism/amigues-sin-fondo.png',
-            website: 'https://www.instagram.com/amiguesporlascalles/',
-            donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
-        },
+        }
     ];
 
     return (
@@ -64,8 +46,6 @@ export default function OrganizationCard() {
                                 src={organization.logo}
                                 alt="Logo de organizaciones"
                                 className="organizations-logo"
-                                width={100}
-                                height={24}
                                 unoptimized
                             />
                             <h3>{organization.name}</h3>
@@ -84,7 +64,6 @@ export default function OrganizationCard() {
                             >
                                 Donar
                             </a>
-                            <img src={organization.logo} alt="logo" width="500" height="600" />
                         </li>
                     ))}
                 </ul>
