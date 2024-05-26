@@ -17,7 +17,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
+		<html lang="es">
 			<body className={quicksand.className}>
 				<Header />
 				<main className="flex flex-col items-center p-24">
