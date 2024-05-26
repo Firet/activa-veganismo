@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
+import { Quicksand } from "next/font/google";
 import './globals.css';
 import Header from '@/components/header/header';
 import Footer from '@/components/footer/footer';
+
+const quicksand = Quicksand({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: 'App Voluntariado vegano',
@@ -15,7 +18,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body>
+			<body className={quicksand.className}>
 				<Header />
 				<main className="flex flex-col items-center p-24">
 					{children}
