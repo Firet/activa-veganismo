@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
-import { Quicksand } from "next/font/google";
+import { Quicksand } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/header/header';
 import Footer from '@/components/footer/footer';
 
-const quicksand = Quicksand({ subsets: ["latin"] });
+const quicksand = Quicksand({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
 	title: 'App Voluntariado vegano',
