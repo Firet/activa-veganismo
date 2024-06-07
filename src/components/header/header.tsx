@@ -1,6 +1,8 @@
+'use client';
+
 import React from 'react';
-import './header.css';
 import Link from 'next/link';
+import './header.css';
 
 export default function Header() {
 	return (
@@ -9,7 +11,7 @@ export default function Header() {
 				<div>
 					<a href="#home">Ser voluntario</a>
 					<a href="#about">Donar</a>
-					<a href="#contact">Carga tu ONG</a>
+					<Link href="/cargar-ong">Carga tu ONG</Link>
 					<Link href="/quienes-somos">Quienes somos</Link>
 				</div>
 			</nav>
