@@ -11,7 +11,7 @@ export default function Header() {
 				<div>
 					<a href="#home">Ser voluntario</a>
 					<a href="#about">Donar</a>
-					<Link href="/cargar-ong">Carga tu ONG</Link>
+					<Link href="/cargar-ong">Cargá tu ONG</Link>
 					<Link href="/quienes-somos">Quienes somos</Link>
 				</div>
 			</nav>
