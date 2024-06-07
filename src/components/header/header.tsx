@@ -9,7 +9,7 @@ export default function Header() {
 		<header>
 			<nav className="navbar flex flex-col space-evenly items-center">
 				<div>
-					<a href="#home">Ser voluntario</a>
+					<Link href="/">Inicio</Link>
 					<a href="#about">Donar</a>
 					<Link href="/cargar-ong">Cargá tu ONG</Link>
 					<Link href="/quienes-somos">Quienes somos</Link>
