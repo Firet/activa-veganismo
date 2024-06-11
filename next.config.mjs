@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/vegan-volunteerism',
+    basePath: '/activa-veganismo',
     output: "export",
     distDir: "docs"
 };
