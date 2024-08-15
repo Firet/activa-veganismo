@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	--black: #000;
+	--white: #fff;
+	--green-1: #009669;
+    --green-2: #33AB88;
+}
+
 .page-title {
-	color: #000;
+	color: var(--black);
 	font-weight: bold;
 	font-size: 2rem;
 	margin-top: 5rem;

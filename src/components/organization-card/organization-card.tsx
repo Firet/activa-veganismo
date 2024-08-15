@@ -84,7 +84,9 @@ export default function OrganizationCard() {
 								/>
 							</div>
 							<h3>{organization.name}</h3>
-							<p className="organization-description">{organization.description}</p>
+							<p className="organization-description">
+								{organization.description}
+							</p>
 							<a
 								href={organization.website}
 								target="_blank"
