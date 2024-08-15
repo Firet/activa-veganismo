@@ -46,7 +46,7 @@ Podés comenzar a editar la página modificando `src/app/page.tsx`. La página s
 - Hacé el build con el siguiente comando:
 ```npm run build```
 - Creá un archivo llamado .nojekyll, vacío, dentro de la carpeta docs.
-- Hacé push para mandar los cambios.
-```git push origin gh-pages```
+- Add, commit y push para mandar los cambios.
+```git add . && git commit -m "Build app" && git push origin gh-pages```
 - Esperar que el build termine y revisar si se aplicaron los cambios en [la página](https://firet.github.io/activa-veganismo/).
   
