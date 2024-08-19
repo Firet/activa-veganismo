@@ -1,18 +1,20 @@
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
 .navbar {
   background-color: var(--green-2);
-  padding: 1rem;
-  width: 100%;
-  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10;
+  width: 60%;
+  border-bottom: solid red;
+  margin: 10px;
 }
 
 .navbar a {
   margin: 0 1rem;
   text-decoration: none;
-  color: var(--black);
+  color: var(--white);
   font-weight: bold;
   font-size: 1.2rem;
 }
