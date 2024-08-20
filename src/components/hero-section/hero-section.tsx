@@ -9,7 +9,7 @@ export default function HeroSection() {
 
             <h1 className='hero-title'>Sumate a una organización como voluntarie</h1>
             <Image
-                src="/hero.jpg"
+                src="/hero.png"
                 alt="Voluntarios juntando basura al aire libre"
                 fill={true}
                 className='hero-image'
