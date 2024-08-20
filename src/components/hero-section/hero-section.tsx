@@ -13,7 +13,6 @@ export default function HeroSection() {
                 alt="Voluntarios juntando basura al aire libre"
                 fill={true}
                 className='hero-image'
-                unoptimized
             />
         </section>
     );
