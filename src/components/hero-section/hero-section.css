@@ -1,0 +1,19 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+  }
+
+  .hero-image {
+    z-index: -1;
+    object-fit: cover;
+    min-height: 1000px;
+  }
+
+.hero-title {
+    color: var(--green-2);
+    font-size: 70px;
+    width: 40%;
+    font-weight: bolder;
+    margin-left: 160px;
+  }
