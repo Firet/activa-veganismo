@@ -11,8 +11,11 @@ export default function HeroSection() {
             <Image
                 src="/hero.png"
                 alt="Voluntarios juntando basura al aire libre"
-                fill={true}
+                // fill={true}
                 className='hero-image'
+                unoptimized
+                width={1000}
+                height={1000}
             />
         </section>
     );
