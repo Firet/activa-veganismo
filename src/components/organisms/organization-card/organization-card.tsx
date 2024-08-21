@@ -9,7 +9,6 @@ export default function OrganizationCard() {
 	return (
 		<>
 			<div className="organizations-container">
-				<h2>Organizaciones para donar</h2>
 				<ul className="organizations-list">
 					{organizations.map((organization) => (
 						<li key={organization.id} className="organization-item">
