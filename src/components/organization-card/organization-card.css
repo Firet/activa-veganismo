@@ -41,3 +41,9 @@
   text-decoration: none;
   color: blue;
 }
+
+@media (max-width: 600px) {
+  .organization-item {
+    min-width: 52%;
+  }
+}
