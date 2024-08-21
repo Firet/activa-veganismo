@@ -2,7 +2,7 @@
 
 import React from 'react';
 import HeroSection from '@/components/templates/hero-section/hero-section';
-import OrganizationCard from '@/components/organization-card/organization-card';
+import OrganizationCard from '@/components/organisms/organization-card/organization-card';
 import Map from '@/components/map/map';
 
 export default function Home() {
