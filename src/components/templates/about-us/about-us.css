@@ -1,0 +1,25 @@
+.about-us-section {
+    background-color: var(--green-2);
+    width: 100%;
+    min-height: 500px;
+}
+
+.about-us-title {
+    color: var(--darker-green);
+    font-size:50px;
+}
+
+.about-us-subtitle {
+    color: var(--darker-green);
+    font-size:40px;
+}
+
+.about-us-text {
+    color: var(--white);
+    font-size:25px;
+}
+
+.about-us-call-to-action {
+    color: var(--white);
+    background-color: var(--darker-green);
+}
