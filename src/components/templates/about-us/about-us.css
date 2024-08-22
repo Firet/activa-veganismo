@@ -6,17 +6,17 @@
 
 .about-us-title {
     color: var(--darker-green);
-    font-size:50px;
+    font-size:3rem;
 }
 
 .about-us-subtitle {
     color: var(--darker-green);
-    font-size:40px;
+    font-size:3rem;
 }
 
 .about-us-text {
-    color: var(--white);
-    font-size:25px;
+    color: var(--darker-green);
+    font-size:1rem;
 }
 
 .about-us-call-to-action {
