@@ -16,7 +16,7 @@ export default function AboutUs() {
                     height={500}
                 />
             </div>
-            <div className="">
+            <div className="p-10 md:pt-10">
                 <h1 className='about-us-title font-bold sm:text-xl md:text-xl lg:text-5xl xg:text-5xl'>
                     ¿Quiénes Somos?
                 </h1>
