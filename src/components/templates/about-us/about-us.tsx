@@ -6,7 +6,7 @@ export default function AboutUs() {
 
     return (
         <section className='grid md:grid-cols-1 lg:grid-cols-2 about-us-section'>
-            <div className='flex justify-end p-10'>
+            <div className='flex p-10'>
                 <Image
                     src="./about-us.jpg"
                     alt="Voluntarios en contraste con el sol"
