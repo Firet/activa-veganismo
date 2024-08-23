@@ -1,22 +1,22 @@
 header {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
 }
 
 .navbar {
-  background-color: var(--green-2);
-  width: 60%;
-  border-bottom: solid red;
-  margin: 10px;
+	background-color: var(--green-2);
+	width: 60%;
+	border-bottom: solid red;
+	margin: 10px;
 }
 
 .navbar a {
-  margin: 0 1rem;
-  text-decoration: none;
-  color: var(--white);
-  font-weight: bold;
-  font-size: 1.2rem;
+	margin: 0 1rem;
+	text-decoration: none;
+	color: var(--white);
+	font-weight: bold;
+	font-size: 1.2rem;
 }
 
 @media (max-width: 600px) {

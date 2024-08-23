@@ -10,7 +10,7 @@ export default function Header() {
 		<header>
 			<div className="image-container">
 				<Image
-					src='./activa-veganismo.png'
+					src="./activa-veganismo.png"
 					alt="Logo activá veganismo"
 					unoptimized
 					width={125}

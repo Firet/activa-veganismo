@@ -1,49 +1,49 @@
 .organizations-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
 }
 
 .organizations-logo {
-  width: 100px;
-  height: auto;
-  margin-bottom: 20px;
+	width: 100px;
+	height: auto;
+	margin-bottom: 20px;
 }
 
 .organizations-list {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  list-style: none;
-  padding: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
 }
 
 .organization-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid #ccc;
-  padding: 15px;
-  width: 45%;
-  margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #ccc;
+	padding: 15px;
+	width: 45%;
+	margin: 10px;
 }
 
 .image-container {
-  min-height: 100px;
+	min-height: 100px;
 }
 
 .organization-description {
-  text-align: center;
+	text-align: center;
 }
 
 .organization-link {
-  text-decoration: none;
-  color: blue;
+	text-decoration: none;
+	color: blue;
 }
 
 @media (max-width: 600px) {
-  .organization-item {
-    min-width: 52%;
-  }
+	.organization-item {
+		min-width: 52%;
+	}
 }

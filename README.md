@@ -1,7 +1,9 @@
 # 🟢App de voluntariado vegan
-  Una app para encontrar el mejor lugar para voluntariar.
+
+Una app para encontrar el mejor lugar para voluntariar.
 
 ## 🟣Idea principal
+
 El problema: Las personas que desean ser voluntarias en organizaciones sin fines de lucro, no cuentan con un medio que les facilite la ubicación y/o contacto de las mismas.
 
 Objetivo: Facilitar a las personas interesadas la ubicación y/o contacto de organizaciones sin fines de lucro.
@@ -11,13 +13,12 @@ Solución: Una página web que cuente con las siguientes funcionalidades: geoloc
 (Problema alternativo: Buscar una manera de comunicar varias organizaciones).
 
 ## 🔵 ¿Qué se puede hacer en el corto plazo?
-- Mejorar este readme para explicar como correr la app
-- Analizar la arquitectura de la app. Vamos a usar server side o client side rendering?
-- Ver como conectar con una api de mapas (google maps, here maps, open street map)
-- Mejorar los prototipos de la interfaz gráfica (pedir link de figma)
-- Se puede ver todas las cosas que faltan hacer en [este tablero de tareas](
-https://trello.com/invite/b/S8Ra2DQo/ATTI7d56b70516b814625921b34ba0c991c5C6EC6BE0/app-de-voluntariado-vegan)
 
+-   Mejorar este readme para explicar como correr la app
+-   Analizar la arquitectura de la app. Vamos a usar server side o client side rendering?
+-   Ver como conectar con una api de mapas (google maps, here maps, open street map)
+-   Mejorar los prototipos de la interfaz gráfica (pedir link de figma)
+-   Se puede ver todas las cosas que faltan hacer en [este tablero de tareas](https://trello.com/invite/b/S8Ra2DQo/ATTI7d56b70516b814625921b34ba0c991c5C6EC6BE0/app-de-voluntariado-vegan)
 
 Este es un proyecto que usa [Next.js](https://nextjs.org/) y es iniciado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -38,15 +39,14 @@ Podés comenzar a editar la página modificando `src/app/page.tsx`. La página s
 
 ## Despliegue (deploy) en github-pages
 
-- Asegurate de que tu código esté listo para implementarse en la rama main. Esto significa que debe estar probado y tiene que funcionar correctamente en tu entorno local.
-- Cambiate a la rama gh-pages: 
-```git checkout gh-pages```
-- Mezclá el código de main en gh-pages:
-```git merge main```
-- Hacé el build con el siguiente comando:
-```npm run build```
-- Creá un archivo llamado .nojekyll, vacío, dentro de la carpeta docs.
-- Add, commit y push para mandar los cambios.
-```git add . && git commit -m "Build app" && git push origin gh-pages```
-- Esperar que el build termine y revisar si se aplicaron los cambios en [la página](https://firet.github.io/activa-veganismo/).
-  
+-   Asegurate de que tu código esté listo para implementarse en la rama main. Esto significa que debe estar probado y tiene que funcionar correctamente en tu entorno local.
+-   Cambiate a la rama gh-pages:
+    `git checkout gh-pages`
+-   Mezclá el código de main en gh-pages:
+    `git merge main`
+-   Hacé el build con el siguiente comando:
+    `npm run build`
+-   Creá un archivo llamado .nojekyll, vacío, dentro de la carpeta docs.
+-   Add, commit y push para mandar los cambios.
+    `git add . && git commit -m "Build app" && git push origin gh-pages`
+-   Esperar que el build termine y revisar si se aplicaron los cambios en [la página](https://firet.github.io/activa-veganismo/).
