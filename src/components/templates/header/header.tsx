@@ -10,7 +10,7 @@ export default function Header() {
 		<header>
 			<div className="image-container">
 				<Image
-					src='./activa-veganismo.png'
+					src="./activa-veganismo.png"
 					alt="Logo activá veganismo"
 					unoptimized
 					width={125}
@@ -18,10 +18,9 @@ export default function Header() {
 				/>
 			</div>
 			<nav className="navbar flex flex-row justify-around items-center">
-				<Link href="/">Inicio</Link>
-				<Link href="/donar">Donar</Link>
-				<Link href="/cargar-ong">Cargá tu ONG</Link>
-				<Link href="/quienes-somos">Quienes somos</Link>
+				<Link href="#about-us">Quienes somos</Link>
+				<Link href="#organizations">Organizaciones</Link>
+				<Link href="#map">Mapa</Link>
 			</nav>
 		</header>
 	);

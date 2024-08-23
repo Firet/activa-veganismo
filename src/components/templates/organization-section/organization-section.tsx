@@ -1,14 +1,13 @@
 import React from 'react';
-import './organization-section.css';
 import OrganizationCard from '@/components/organisms/organization-card/organization-card';
 
 export default function OrganizationSection() {
-
-    return (
-        <section className="organization-section">
-
-            <h1 className='organization-section-title'>Buscá la organización a tu medida</h1>
-            <OrganizationCard />
-        </section>
-    );
+	return (
+		<section id="organizations" className="flex flex-col items-center">
+			<h1 className="text-4xl font-bold text-[color:var(--green-2)]">
+				Buscá la organización a tu medida
+			</h1>
+			<OrganizationCard />
+		</section>
+	);
 }

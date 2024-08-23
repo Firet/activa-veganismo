@@ -22,7 +22,7 @@ export default function OrganizationCard() {
 									height={24}
 								/>
 							</div>
-							<h3>{organization.name}</h3>
+							<h3 className="organization-title">{organization.name}</h3>
 							<p className="organization-description">
 								{organization.description}
 							</p>
@@ -33,13 +33,13 @@ export default function OrganizationCard() {
 							>
 								Website
 							</a>
-							<a
+							{/* <a
 								href={organization.donationUrl}
 								target="_blank"
 								className="organization-link"
 							>
 								Donar
-							</a>
+							</a> */}
 						</li>
 					))}
 				</ul>

@@ -4,7 +4,7 @@ import React from 'react';
 import HeroSection from '@/components/templates/hero-section/hero-section';
 import OrganizationSection from '@/components/templates/organization-section/organization-section';
 import AboutUs from '@/components/templates/about-us/about-us';
-import Map from '@/components/organisms/map/map';
+import MapSection from '@/components/templates/map-section/map-section';
 
 export default function Home() {
 	return (
@@ -12,7 +12,7 @@ export default function Home() {
 			<HeroSection />
 			<OrganizationSection />
 			<AboutUs />
-			<Map />
+			<MapSection />
 		</>
 	);
 }
