@@ -5,8 +5,13 @@
 :root {
 	--black: #000;
 	--white: #fff;
+	--light-green: #E8F8EB;
+	--light-hover-green: #DDF4E0;
+	--light-active-green: #B8E8C0;
+	--normal-green: #1AB433;
 	--green-1: #009669;
 	--green-2: #33ab88;
+	--dark-green: #148726;
 	--darker-green: #093f12;
 }
 
