@@ -53,6 +53,6 @@
 
 @media (max-width: 600px) {
 	.organization-item {
-		min-width: 52%;
+		width: 100%;
 	}
 }
