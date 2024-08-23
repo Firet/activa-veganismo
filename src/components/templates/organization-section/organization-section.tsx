@@ -5,7 +5,7 @@ import OrganizationCard from '@/components/organisms/organization-card/organizat
 export default function OrganizationSection() {
 
     return (
-        <section className="organization-section">
+        <section id="organizations" className="organization-section">
 
             <h1 className='organization-section-title'>Buscá la organización a tu medida</h1>
             <OrganizationCard />

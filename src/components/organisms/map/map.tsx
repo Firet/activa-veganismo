@@ -13,7 +13,7 @@ const center = {
 
 export default function Map() {
 	return (
-		<>
+		<div id="map">
 			<LoadScript googleMapsApiKey="AIzaSyAno2Y5lzSsxzKzML7FJjpmyzkUpuRMRyw">
 				<GoogleMap
 					mapContainerStyle={containerStyle}
@@ -23,6 +23,6 @@ export default function Map() {
 					{/* Child components, such as markers, info windows, etc. */}
 				</GoogleMap>
 			</LoadScript>
-		</>
+		</ div>
 	);
 }
