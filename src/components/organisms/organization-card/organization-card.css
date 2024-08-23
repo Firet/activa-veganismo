@@ -23,7 +23,9 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border: 1px solid #ccc;
+	border-radius: 25px;
+	background-color: var(--green-2);
+	color: var(--white);
 	padding: 15px;
 	width: 45%;
 	margin: 10px;
@@ -33,13 +35,20 @@
 	min-height: 100px;
 }
 
+.organization-title {
+	font-weight: bold;
+}
+
 .organization-description {
+	margin-top: 0.5rem;
 	text-align: center;
 }
 
 .organization-link {
+	margin-top: 0.5rem;
 	text-decoration: none;
-	color: blue;
+	color: var(--darker-green);
+	font-weight: bold;
 }
 
 @media (max-width: 600px) {
