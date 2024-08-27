@@ -1,0 +1,58 @@
+.organizations-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.organizations-logo {
+	width: 100px;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.organizations-list {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+}
+
+.organization-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 25px;
+	background-color: var(--green-2);
+	color: var(--white);
+	padding: 15px;
+	width: 45%;
+	margin: 10px;
+}
+
+.image-container {
+	min-height: 100px;
+}
+
+.organization-title {
+	font-weight: bold;
+}
+
+.organization-description {
+	margin-top: 0.5rem;
+	text-align: center;
+}
+
+.organization-link {
+	margin-top: 0.5rem;
+	text-decoration: none;
+	color: var(--darker-green);
+	font-weight: bold;
+}
+
+@media (max-width: 600px) {
+	.organization-item {
+		width: 100%;
+	}
+}
