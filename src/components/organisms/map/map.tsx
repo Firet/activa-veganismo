@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import React from 'react';
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
@@ -12,9 +13,10 @@ const center = {
 };
 
 export default function Map() {
+	const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY || '';
 	return (
 		<>
-			<LoadScript googleMapsApiKey="AIzaSyAno2Y5lzSsxzKzML7FJjpmyzkUpuRMRyw">
+			<LoadScript googleMapsApiKey={apiKey}>
 				<GoogleMap
 					mapContainerStyle={containerStyle}
 					center={center}
