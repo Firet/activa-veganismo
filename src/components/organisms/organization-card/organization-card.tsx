@@ -31,7 +31,7 @@ export default function OrganizationCard() {
 								target="_blank"
 								className="organization-link"
 							>
-								Website
+								Sitio web
 							</a>
 							{/* <a
 								href={organization.donationUrl}

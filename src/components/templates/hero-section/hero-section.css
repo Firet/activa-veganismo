@@ -25,3 +25,9 @@
 		margin-left: -5rem;
 	}
 }
+
+@-moz-document url-prefix() {
+	.hero-section {
+		min-height: 800px;
+	}
+}
