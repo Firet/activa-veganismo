@@ -18,7 +18,7 @@ export default function Header() {
 				/>
 			</div>
 			<nav className="navbar flex flex-row justify-around items-center">
-				<Link href="#about-us">Quienes somos</Link>
+				<Link href="#about-us">Quiénes somos</Link>
 				<Link href="#organizations">Organizaciones</Link>
 				<Link href="#map">Mapa</Link>
 			</nav>
