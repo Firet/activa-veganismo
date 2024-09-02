@@ -1,11 +1,10 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Image from 'next/image';
 import './header.css';
 
 export default function Header() {
-	const [isScrolled, setIsScrolled] = useState(false);
 
 	const scrollToSection = (sectionId: string, offset: number = 0) => {
 		const section = document.getElementById(sectionId);
@@ -15,20 +14,10 @@ export default function Header() {
 			window.scrollTo({
 				top: position,
 				behavior: 'smooth'
-			});
+			})
 		}
-	};
+	}
 	
-	useEffect(() => {
-        const handleScroll = () => {
-            const scrollPosition = window.scrollY;
-            setIsScrolled(scrollPosition > 0);
-        };
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
 
 	return (
 		<header>
@@ -47,6 +36,6 @@ export default function Header() {
 				<a onClick={() => scrollToSection('map')}>Mapa</a>
 			</nav>
 		</header>
-	);
+	)
 }
 
