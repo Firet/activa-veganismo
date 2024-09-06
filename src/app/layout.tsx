@@ -20,7 +20,7 @@ export default function RootLayout({
 		<html lang="es">
 			<body className={quicksand.className}>
 				<Header />
-				<main className="flex flex-col items-center p-24">
+				<main className="flex flex-col items-center">
 					{children}
 				</main>
 				<Footer />

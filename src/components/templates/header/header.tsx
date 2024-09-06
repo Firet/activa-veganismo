@@ -31,8 +31,8 @@ export default function Header() {
 				/>
 			</div>
 			<nav className="navbar flex flex-row justify-around items-center">
+				<a onClick={() => scrollToSection('organizations', -20)}>Organizaciones</a>
 				<a onClick={() => scrollToSection('about-us', -30)}>Quiénes somos</a>
-				<a onClick={() => scrollToSection('organizations', -30)}>Organizaciones</a>
 				<a onClick={() => scrollToSection('map')}>Mapa</a>
 			</nav>
 		</header>

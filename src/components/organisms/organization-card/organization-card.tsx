@@ -33,6 +33,7 @@ export default function OrganizationCard() {
 							>
 								Sitio web
 							</a>
+							{organization.instagram !== '' ? <a href={organization.instagram} target='_blank'><img src='./instagram.png' /></a> : ''}
 							{/* <a
 								href={organization.donationUrl}
 								target="_blank"

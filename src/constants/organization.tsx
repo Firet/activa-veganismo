@@ -8,6 +8,7 @@ const organizations: Organization[] = [
 		logo: './voicot.png',
 		website: 'https://www.voicot.com/',
 		donationUrl: 'https://www.voicot.com/donaciones',
+		instagram: 'https://www.instagram.com/voicot/?hl=es',
 	},
 	{
 		id: 2,
@@ -16,15 +17,16 @@ const organizations: Organization[] = [
 		logo: './difu-v.png',
 		website: 'https://www.difusionv.com',
 		donationUrl: 'https://www.unicef.org/argentina/donar',
+		instagram: 'https://www.instagram.com/difusionv/?hl=es',
 	},
 	{
 		id: 3,
 		name: 'Amigues por las calles',
-		description:
-			'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
+		description:'Organización que provee comida vegana a gente en situación de vulnerabilidad.',
 		logo: './amigues-sin-fondo.png',
 		website: 'https://www.instagram.com/amiguesporlascalles/',
 		donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
+		instagram: 'https://www.instagram.com/amiguesporlascalles/?hl=es',
 	},
 	{
 		id: 4,
@@ -33,6 +35,7 @@ const organizations: Organization[] = [
 		logo: './difu-v.png',
 		website: 'https://www.difusionv.com',
 		donationUrl: 'https://www.unicef.org/argentina/donar',
+		instagram: '',
 	},
 	{
 		id: 5,
@@ -42,6 +45,7 @@ const organizations: Organization[] = [
 		logo: './amigues-sin-fondo.png',
 		website: 'https://www.instagram.com/amiguesporlascalles/',
 		donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
+		instagram: '',
 	},
 	{
 		id: 6,
@@ -50,16 +54,8 @@ const organizations: Organization[] = [
 		logo: './difu-v.png',
 		website: 'https://www.difusionv.com',
 		donationUrl: 'https://www.unicef.org/argentina/donar',
-	},
-	{
-		id: 7,
-		name: 'Amigues por las calles',
-		description:
-			'Organización de voluntaries que proveen comida vegana a la gente en situación de calle.',
-		logo: './amigues-sin-fondo.png',
-		website: 'https://www.instagram.com/amiguesporlascalles/',
-		donationUrl: 'https://www.instagram.com/amiguesporlascalles/',
-	},
+		instagram: '',
+	}
 ];
 
 export default organizations;

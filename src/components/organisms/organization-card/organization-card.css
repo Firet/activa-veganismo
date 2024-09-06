@@ -1,8 +1,20 @@
+#organizations{
+	margin-bottom: 50px;
+}
+
+.organizations-main-title{
+	color: var(--green-2);
+	font-size: 34px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
 .organizations-container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 20px;
+	margin-top: 20px;
+	max-width: 1100px;
 }
 
 .organizations-logo {
@@ -13,22 +25,26 @@
 
 .organizations-list {
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	list-style: none;
 	padding: 0;
+	margin: 0;
 }
 
 .organization-item {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border-radius: 25px;
-	background-color: var(--green-2);
-	color: var(--white);
+	justify-content: space-between;
+	border-radius: 90px;
+	background-color: #f4f4f4;
+	color: #000;
 	padding: 15px;
-	width: 45%;
-	margin: 10px;
+	width: 250px;
+	margin: 30px;
+	padding: 20px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.13) 0px 3px 7px -3px;
 }
 
 .image-container {
@@ -47,7 +63,6 @@
 .organization-link {
 	margin-top: 0.5rem;
 	text-decoration: none;
-	color: var(--darker-green);
 	font-weight: bold;
 }
 
