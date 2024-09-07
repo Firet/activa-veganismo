@@ -22,7 +22,9 @@ export default function OrganizationCard() {
 									height={24}
 								/>
 							</div>
-							<h3 className="organization-title">{organization.name}</h3>
+							<h3 className="organization-title">
+								{organization.name}
+							</h3>
 							<p className="organization-description">
 								{organization.description}
 							</p>
@@ -33,7 +35,16 @@ export default function OrganizationCard() {
 							>
 								Sitio web
 							</a>
-							{organization.instagram !== '' ? <a href={organization.instagram} target='_blank'><img src='./instagram.png' /></a> : ''}
+							{organization.instagram !== '' ? (
+								<a
+									href={organization.instagram}
+									target="_blank"
+								>
+									<img src="./instagram.png" />
+								</a>
+							) : (
+								''
+							)}
 							{/* <a
 								href={organization.donationUrl}
 								target="_blank"
