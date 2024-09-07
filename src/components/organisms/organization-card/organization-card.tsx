@@ -15,7 +15,7 @@ export default function OrganizationCard() {
 							<div className="image-container">
 								<Image
 									src={organization.logo}
-									alt="Logo de organizaciones"
+									alt="Logo de organización"
 									className="organization-logo"
 									unoptimized
 									width={100}
