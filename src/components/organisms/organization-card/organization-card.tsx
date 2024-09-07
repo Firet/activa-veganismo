@@ -40,7 +40,13 @@ export default function OrganizationCard() {
 									href={organization.instagram}
 									target="_blank"
 								>
-									<img src="./instagram.png" />
+									<Image
+										src="./instagram.png"
+										alt="Dirigite al instagram de {organization.name}"
+										unoptimized
+										width={24}
+										height={24}
+									/>
 								</a>
 							) : (
 								''
