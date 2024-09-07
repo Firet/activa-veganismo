@@ -15,14 +15,16 @@ export default function OrganizationCard() {
 							<div className="image-container">
 								<Image
 									src={organization.logo}
-									alt="Logo de organizaciones"
+									alt="Logo de organización"
 									className="organization-logo"
 									unoptimized
 									width={100}
 									height={24}
 								/>
 							</div>
-							<h3 className="organization-title">{organization.name}</h3>
+							<h3 className="organization-title">
+								{organization.name}
+							</h3>
 							<p className="organization-description">
 								{organization.description}
 							</p>
@@ -33,6 +35,16 @@ export default function OrganizationCard() {
 							>
 								Sitio web
 							</a>
+							{organization.instagram !== '' ? (
+								<a
+									href={organization.instagram}
+									target="_blank"
+								>
+									<img src="./instagram.png" />
+								</a>
+							) : (
+								''
+							)}
 							{/* <a
 								href={organization.donationUrl}
 								target="_blank"

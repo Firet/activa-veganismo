@@ -15,8 +15,12 @@ header {
 	margin: 0 1rem;
 	text-decoration: none;
 	color: var(--white);
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 1.2rem;
+	cursor: pointer;
+}
+.navbar a:hover {
+	font-weight: 600;
 }
 
 @media (max-width: 600px) {

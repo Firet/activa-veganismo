@@ -2,10 +2,21 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
 import './header.css';
 
 export default function Header() {
+	const scrollToSection = (sectionId: string, offset: number = 0) => {
+		const section = document.getElementById(sectionId);
+
+		if (section) {
+			const position = section.offsetTop + offset;
+			window.scrollTo({
+				top: position,
+				behavior: 'smooth',
+			});
+		}
+	};
+
 	return (
 		<header>
 			<div className="image-container">
@@ -18,9 +29,13 @@ export default function Header() {
 				/>
 			</div>
 			<nav className="navbar flex flex-row justify-around items-center">
-				<Link href="#about-us">Quienes somos</Link>
-				<Link href="#organizations">Organizaciones</Link>
-				<Link href="#map">Mapa</Link>
+				<a onClick={() => scrollToSection('organizations', -20)}>
+					Organizaciones
+				</a>
+				<a onClick={() => scrollToSection('about-us', -30)}>
+					Quiénes somos
+				</a>
+				<a onClick={() => scrollToSection('map')}>Mapa</a>
 			</nav>
 		</header>
 	);
