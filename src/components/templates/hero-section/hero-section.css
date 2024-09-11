@@ -1,13 +1,13 @@
 .hero-section {
 	display: flex;
 	flex-direction: column;
-	min-height: 90vh;
+	min-height: 800px;
 }
 
 .hero-image {
 	z-index: -1;
 	object-fit: cover;
-	min-height: 1000px;
+	min-height: 800px;
 }
 
 .hero-title {
@@ -27,8 +27,3 @@
 	}
 }
 
-@-moz-document url-prefix() {
-	.hero-section {
-		min-height: 800px;
-	}
-}
