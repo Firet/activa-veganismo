@@ -1,19 +1,44 @@
 .about-us-section {
 	background-color: var(--green-2);
 	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.about-us{
+	max-width: 1200px;
 	min-height: 500px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 60px 0px;
 }
 
-.about-us-title {
-	color: var(--darker-green);
+.about-us-image{
+	display: flex;
+    justify-content: center;
+	width: 40%;
 }
 
-.about-us-subtitle {
-	color: var(--darker-green);
+.about-us-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ajusta la imagen para que cubra el contenedor sin deformarse */
 }
 
-.about-us-text {
-	color: var(--darker-green);
+.about-us-container{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.about-us-title , .about-us-subtitle, .about-us-text {
+	color: #fff;
+}
+
+.about-us-title{
+	font-weight: 500;
 }
 
 .about-us-call-to-action {
