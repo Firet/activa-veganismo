@@ -1,0 +1,8 @@
+.map-title{
+    color: var(--green-2);
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    font-size: 29px;
+    padding: 20px;
+}
