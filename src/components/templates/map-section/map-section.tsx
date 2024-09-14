@@ -6,7 +6,7 @@ export default function MapSection() {
 	return (
 		<section id="map" className="flex flex-col items-center w-full mt-10">
 			<h1 className="map-title">
-				Encontrá una organización que te quede cerca
+				Encontrá la organización más cercana a vos!
 			</h1>
 			<Map />
 		</section>
