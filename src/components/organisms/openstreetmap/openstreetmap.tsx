@@ -28,8 +28,12 @@ export default function OpenStreetMap() {
                 <Marker
                     key={index}
                     position={{ lat: location.lat, lng: location.lng }}
-                    title={location.title}
-                />
+                >
+                    <Popup>
+                        {location.title}
+                    </Popup>
+                </Marker>
+
             ))}
         </MapContainer>
     );
