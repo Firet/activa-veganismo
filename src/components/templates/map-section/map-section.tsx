@@ -1,14 +1,14 @@
 import React from 'react';
-import Map from '@/components/organisms/map/map';
+import DynamicOpenStreetMap from '@/components/organisms/openstreetmap/dynamic-openstreetmap';
 import './map.css';
 
 export default function MapSection() {
 	return (
-		<section id="map" className="flex flex-col items-center w-full mt-10">
+		<section id="map" className="">
 			<h1 className="map-title">
 				Encontrá la organización más cercana a vos!
 			</h1>
-			<Map />
+			<DynamicOpenStreetMap/>
 		</section>
 	);
 }
