@@ -1,5 +1,5 @@
 import React from 'react';
-import OpenStreetMap from '@/components/organisms/openstreetmap/openstreetmap';
+import DynamicOpenStreetMap from '@/components/organisms/openstreetmap/dynamic-openstreetmap';
 import './map.css';
 
 export default function MapSection() {
@@ -8,7 +8,7 @@ export default function MapSection() {
 			<h1 className="map-title">
 				Encontrá la organización más cercana a vos!
 			</h1>
-			<OpenStreetMap/>
+			<DynamicOpenStreetMap/>
 		</section>
 	);
 }
