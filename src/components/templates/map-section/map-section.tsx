@@ -8,7 +8,9 @@ export default function MapSection() {
 			<h1 className="map-section-title">
 				Encontrá la organización más cercana a vos!
 			</h1>
-			<DynamicOpenStreetMap/>
+			<div className="open-street-map-container">
+				<DynamicOpenStreetMap />
+			</div>
 		</section>
 	);
 }
