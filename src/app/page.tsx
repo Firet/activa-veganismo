@@ -5,6 +5,7 @@ import HeroSection from '@/components/templates/hero-section/hero-section';
 import OrganizationSection from '@/components/templates/organization-section/organization-section';
 import AboutUs from '@/components/templates/about-us/about-us';
 import MapSection from '@/components/templates/map-section/map-section';
+import FormSection from '@/components/templates/form-section/form-section';
 
 export default function Home() {
 	return (
@@ -13,6 +14,7 @@ export default function Home() {
 			<OrganizationSection />
 			<AboutUs />
 			<MapSection />
+			<FormSection />
 		</>
 	);
 }
