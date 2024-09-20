@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export default function usePost(data: any) {
+export default function fetch(data: any) {
 	const url = `https://jsonplaceholder.typicode.com/posts`;
 	const fakeData = {
 		method: 'POST',

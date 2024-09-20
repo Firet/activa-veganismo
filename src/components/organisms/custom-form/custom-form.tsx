@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import './custom-form.css';
-import usePost from '@/hooks/usePost';
+import fetch from '@/utils/fetch';
 
 export default function CustomForm() {
 	const [name, setName] = useState('');
@@ -19,7 +19,7 @@ export default function CustomForm() {
 			phone,
 		};
 		console.log(data);
-		usePost(data);
+		fetch(data);
 		setToasterSuccess(true);
 	};
 
