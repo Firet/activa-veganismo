@@ -6,7 +6,7 @@ export default function FormSection() {
     return (
         <section className="form-section">
             <h1 className="form-title">
-                Cargá tu ONG
+                ¿Querés sumar tu organización? Dejanos tus datos para recibir más info
             </h1>
             <CustomForm />
         </section>
