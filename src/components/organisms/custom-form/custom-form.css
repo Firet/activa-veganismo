@@ -27,9 +27,9 @@
 }
 
 .submit-button {
-	background-color: black;
+	background-color: var(--green-2);
 	color: white;
-	border: none;
+	border: 1px solid;
 	padding: 10px 20px;
 	font-size: 16px;
 	cursor: pointer;
@@ -38,5 +38,13 @@
 }
 
 .submit-button:hover {
-	background-color: #333;
+	border-color: var(--darker-green);
 }
+
+.toaster {
+	background-color: var(--light-active-green);
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 20px;
+  }
