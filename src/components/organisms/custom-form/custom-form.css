@@ -40,3 +40,11 @@
 .submit-button:hover {
 	border-color: var(--darker-green);
 }
+
+.toaster {
+	background-color: var(--light-active-green);
+	padding: 20px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 20px;
+  }

@@ -1,12 +1,14 @@
 'use client';
 import React, { useState } from 'react';
 import './custom-form.css';
+import usePost from '@/hooks/usePost';
 
 export default function CustomForm() {
 	const [name, setName] = useState('');
 	const [descripction, setDescripction] = useState('');
 	const [email, setEmail] = useState('');
 	const [phone, setPhone] = useState('');
+	const [toasterSuccess, setToasterSuccess] = useState(false);
 
 	const handleSubmit = (e: any) => {
 		e.preventDefault();
@@ -17,7 +19,8 @@ export default function CustomForm() {
 			phone,
 		};
 		console.log(data);
-		alert('Datos enviados: ' + JSON.stringify(data, null, 2));
+		usePost(data);
+		setToasterSuccess(true);
 	};
 
 	return (
@@ -62,6 +65,11 @@ export default function CustomForm() {
 						Enviar
 					</button>
 				</form>
+				{toasterSuccess && (
+					<div className="toaster">
+						<p>¡Formulario enviado con éxito!</p>
+					</div>
+				)}
 			</div>
 		</>
 	);
