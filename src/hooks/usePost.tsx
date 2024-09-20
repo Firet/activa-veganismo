@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const usePost = (data: any) => {
+export default function usePost(data: any) {
 	const url = `https://jsonplaceholder.typicode.com/posts`;
 	const fakeData = {
 		method: 'POST',
@@ -13,16 +13,7 @@ const usePost = (data: any) => {
 			'Content-type': 'application/json; charset=UTF-8',
 		},
 	};
-
-	const handlePost = async () => {
-		try {
-			const response = await axios.post(url, fakeData);
-			const responseData = response.data;
-		} catch (error) {
-			console.error(error);
-		}
-	};
-	handlePost();
-};
-
-export default usePost;
+	return axios.post(url, fakeData)
+		.then(() => console.info("Hook sent correctly"))
+		.catch(() => console.warn("Hook failed"))
+}
