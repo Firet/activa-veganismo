@@ -3,18 +3,18 @@ import React, { useState } from 'react';
 import './custom-form.css';
 
 export default function CustomForm() {
-	const [nombre, setNombre] = useState('');
-	const [descripcion, setDescripcion] = useState('');
+	const [name, setName] = useState('');
+	const [descripction, setDescripction] = useState('');
 	const [email, setEmail] = useState('');
-	const [telefono, setTelefono] = useState('');
+	const [phone, setPhone] = useState('');
 
 	const handleSubmit = (e: any) => {
 		e.preventDefault();
 		const data = {
-			nombre,
-			descripcion,
+			name,
+			descripction,
 			email,
-			telefono,
+			phone,
 		};
 		console.log(data);
 		alert('Datos enviados: ' + JSON.stringify(data, null, 2));
@@ -28,16 +28,16 @@ export default function CustomForm() {
 						<label>Nombre de la ONG</label>
 						<input
 							type="text"
-							value={nombre}
-							onChange={(e) => setNombre(e.target.value)}
+							value={name}
+							onChange={(e) => setName(e.target.value)}
 							required
 						/>
 					</div>
 					<div className="form-group">
 						<label>Descripción</label>
 						<textarea
-							value={descripcion}
-							onChange={(e) => setDescripcion(e.target.value)}
+							value={descripction}
+							onChange={(e) => setDescripction(e.target.value)}
 							required
 						/>
 					</div>
@@ -54,8 +54,8 @@ export default function CustomForm() {
 						<label>Teléfono de contacto</label>
 						<input
 							type="tel"
-							value={telefono}
-							onChange={(e) => setTelefono(e.target.value)}
+							value={phone}
+							onChange={(e) => setPhone(e.target.value)}
 						/>
 					</div>
 					<button type="submit" className="submit-button">
