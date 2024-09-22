@@ -13,6 +13,8 @@ export default function OpenStreetMap() {
         { lat: -34.915131589117976, lng: -57.95489072886467, title: 'La verdurolla' },    // se necesita ubi exacta
         { lat: -34.60102216113937, lng: -58.384254735760926, title: 'Healthsave Microcentro' },
         { lat: -34.598455385569615, lng: -58.398248442642064, title: 'Healthsave Palermo' },
+        { lat: -34.61421472524178, lng: -58.428028028972584, title: 'Healthsave Caballito' },
+        { lat: -34.56091580070805, lng: -58.45572727503701, title: 'Healthsave Belgrano' },
         { lat: -34.62833285318419, lng: -58.46353150374588, title: 'Healthsave Flores' },
         { lat: -34.44417, lng: -58.5775, title: 'Healthsave San Fernando' },
         { lat: -34.60367706241109, lng: -58.41101116141914, title: 'Amigues Por Las Calles' },
