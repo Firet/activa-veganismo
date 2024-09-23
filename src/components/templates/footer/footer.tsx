@@ -5,8 +5,8 @@ export default function Footer() {
 	const currentYear = new Date().getFullYear();
 
 	return (
-		<footer className="flex flex-col space-evenly items-center footer">
-			{currentYear}
+		<footer className="footer">
+			Copyright © {currentYear} | Design and development made by Damián Federico, Evelyn Di Salvo and Giselle San German
 		</footer>
 	);
 }
