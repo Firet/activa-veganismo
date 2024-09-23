@@ -14,16 +14,40 @@
 	color: var(--green-2);
 	font-size: 4rem;
 	width: 70%;
-	font-weight: bolder;
+	font-weight: 600;
 	margin-left: 10rem;
 	margin-top: 70px;
 }
 
-@media (max-width: 600px) {
-	.hero-title {
-		font-size: 2rem;
+@media (max-width: 1200px){
+	.hero-title{
+		font-size: 3rem;
 		width: 80%;
+		margin-left: 5.5rem;
+	}
+}
+
+@media (max-width: 992px) {
+	.hero-title{
+		font-size: 2.5rem;
+		margin-left: 3rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.hero-title {
+		font-size: 2.4rem;
+		margin-left: 2rem;
+	}
+}
+
+@media (max-width: 500px){
+	.hero-title{
+		font-size: 2rem;
+		width: 95%;
 		margin-left: 1rem;
+		margin-top: 30px;
+		padding: 10px;
 	}
 }
 

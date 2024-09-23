@@ -86,6 +86,12 @@
 	}
 }
 
+@media (max-width: 768px){
+	.organizations-main-title{
+		font-size: 24px;
+	}
+}
+
 @media (max-width: 450px) {
 	.organizations-main-title {
 		font-size: 24px;
