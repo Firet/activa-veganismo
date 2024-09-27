@@ -54,6 +54,11 @@
 
 .image-container {
 	min-height: 100px;
+	transition: transform 1.5s ease-in-out;
+}
+
+.image-container:hover {
+	transform: rotateY(360deg);
 }
 
 .organization-title {
