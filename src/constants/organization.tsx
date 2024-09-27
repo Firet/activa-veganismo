@@ -8,7 +8,6 @@ const organizations: Organization[] = [
 			'Grupo independiente, que reparte viandas todos los viernes a las 19:30 hs en plaza Kenedy, en el partido de San Martín',
 		logo: './viandas-en-la-kennedy-logo.png',
 		website: '',
-		donationUrl: '',
 		instagram: 'https://www.instagram.com/viandasenlakennedy/',
 	},
 	{
@@ -18,7 +17,6 @@ const organizations: Organization[] = [
 			'Organización que promueve la salúd y la nutrición basada en plantas',
 		logo: './health-save-movement-logo.png',
 		website: 'https://healthsaveargentina.org',
-		donationUrl: '',
 		instagram: 'https://www.instagram.com/healthsaveargentina/',
 	},
 	{
@@ -28,7 +26,6 @@ const organizations: Organization[] = [
 			'Acercan alimentos de origen vegetal y donaciones de ropa a ciudadanes que sufren vulnerabilidad social',
 		logo: './amigues-por-las-calles-logo.png',
 		website: '',
-		donationUrl: '',
 		instagram: 'https://www.instagram.com/amiguesporlascalles/',
 	},
 	{
@@ -38,7 +35,6 @@ const organizations: Organization[] = [
 			'Red de activismo por la liberación animal, humana y de la Tierra',
 		logo: './difusion-v-logo.png',
 		website: 'https://www.difusionv.com',
-		donationUrl: '',
 		instagram: 'https://www.instagram.com/difusionv/',
 	},
 	{
@@ -48,7 +44,6 @@ const organizations: Organization[] = [
 			'Activistas por los derechos animales y justicia social🌱✊🏻, reparten comida vegana en el teatro colón',
 		logo: './microcentro-health-save-logo.png',
 		website: '',
-		donationUrl: '',
 		instagram: 'https://www.instagram.com/microcentrohealthsave/',
 	},
 	{
@@ -58,7 +53,6 @@ const organizations: Organization[] = [
 			'Orga de autoconvocades! Hacen viandas sin derivados animales para personas en situación de vulnerabilidad social',
 		logo: './la-verdurolla-logo.png',
 		website: '',
-		donationUrl: '',
 		instagram: 'https://www.instagram.com/la.verdurolla.lp/',
 	},
 	{
@@ -68,7 +62,6 @@ const organizations: Organization[] = [
 			'Movimiento por la liberación animal y de la tierra. Hacen investagaciones en granjes y mataderos, difusiones y escritos',
 		logo: './voicot-logo.png',
 		website: 'https://www.voicot.com/',
-		donationUrl: 'https://www.voicot.com/donaciones',
 		instagram: 'https://www.instagram.com/voicot/?hl=es',
 	},
 ];

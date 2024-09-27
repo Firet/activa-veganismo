@@ -55,13 +55,6 @@ export default function OrganizationCard() {
 							) : (
 								''
 							)}
-							{/* <a
-								href={organization.donationUrl}
-								target="_blank"
-								className="organization-link"
-							>
-								Donar
-							</a> */}
 						</li>
 					))}
 				</ul>
