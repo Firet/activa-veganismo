@@ -6,7 +6,7 @@ export default function Footer() {
 
 	return (
 		<footer className="footer">
-			Copyright © {currentYear} | Design and development made by Damián Federico, Evelyn Di Salvo and Giselle San German
+			Copyleft {currentYear} | Diseñado y desarrollado por Damián Federico, Evelyn Di Salvo y Giselle San German
 		</footer>
 	);
 }
