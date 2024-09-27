@@ -1,19 +1,19 @@
-.custom-form-container {
+.organization-form-container {
 	max-width: 600px;
 	margin: 0 auto;
 	padding: 20px;
 }
 
-.custom-form {
+.organization-form {
 	display: flex;
 	flex-direction: column;
 }
 
-.custom-form input, .custom-form textarea{
+.organization-form input, .organization-form textarea{
 	outline: none;
 }
 
-.custom-form input:hover, .custom-form textarea:hover{
+.organization-form input:hover, .organization-form textarea:hover{
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
