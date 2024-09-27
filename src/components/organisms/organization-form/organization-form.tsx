@@ -1,9 +1,9 @@
 'use client';
 import React, { useState } from 'react';
-import './custom-form.css';
+import './organization-form.css';
 import fetch from '@/utils/fetch';
 
-export default function CustomForm() {
+export default function OrganizationForm() {
 	const [name, setName] = useState('');
 	const [descripction, setDescripction] = useState('');
 	const [email, setEmail] = useState('');
@@ -25,8 +25,8 @@ export default function CustomForm() {
 
 	return (
 		<>
-			<div className="custom-form-container">
-				<form onSubmit={handleSubmit} className="custom-form">
+			<div className="organization-form-container">
+				<form onSubmit={handleSubmit} className="organization-form">
 					<div className="form-group">
 						<label>Nombre de la ONG</label>
 						<input
