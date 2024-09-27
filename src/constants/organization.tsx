@@ -7,7 +7,7 @@ const organizations: Organization[] = [
 		description:
 			'Grupo independiente, que reparte viandas todos los viernes a las 19:30 hs en plaza Kenedy, en el partido de San Martín',
 		logo: './viandas-en-la-kennedy-logo.png',
-		website: 'https://www.instagram.com/viandasenlakennedy/',
+		website: '',
 		donationUrl: '',
 		instagram: 'https://www.instagram.com/viandasenlakennedy/',
 	},
@@ -27,9 +27,9 @@ const organizations: Organization[] = [
 		description:
 			'Acercan alimentos de origen vegetal y donaciones de ropa a ciudadanes que sufren vulnerabilidad social',
 		logo: './amigues-por-las-calles-logo.png',
-		website: 'https://www.instagram.com/amiguesporlascalles/',
+		website: '',
 		donationUrl: '',
-		instagram: 'https://www.instagram.com/amiguesporlascalles/?hl=es',
+		instagram: 'https://www.instagram.com/amiguesporlascalles/',
 	},
 	{
 		id: 4,
@@ -47,7 +47,7 @@ const organizations: Organization[] = [
 		description:
 			'Activistas por los derechos animales y justicia social🌱✊🏻, reparten comida vegana en el teatro colón',
 		logo: './microcentro-health-save-logo.png',
-		website: 'https://www.instagram.com/microcentrohealthsave/',
+		website: '',
 		donationUrl: '',
 		instagram: 'https://www.instagram.com/microcentrohealthsave/',
 	},
@@ -57,7 +57,7 @@ const organizations: Organization[] = [
 		description:
 			'Orga de autoconvocades! Hacen viandas sin derivados animales para personas en situación de vulnerabilidad social',
 		logo: './la-verdurolla-logo.png',
-		website: 'https://www.instagram.com/la.verdurolla.lp/',
+		website: '',
 		donationUrl: '',
 		instagram: 'https://www.instagram.com/la.verdurolla.lp/',
 	},
