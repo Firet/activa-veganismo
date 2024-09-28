@@ -1,76 +1,42 @@
 'use client';
 import React, { useState } from 'react';
+import { useForm, SubmitHandler } from 'react-hook-form';
 import './organization-form.css';
 import fetch from '@/utils/fetch';
 
-export default function OrganizationForm() {
-	const [name, setName] = useState('');
-	const [descripction, setDescripction] = useState('');
-	const [email, setEmail] = useState('');
-	const [phone, setPhone] = useState('');
-	const [toasterSuccess, setToasterSuccess] = useState(false);
+interface IformOrganization {
+	name: string;
+	// description: string;
+	// email: string;
+	// phone: number;
+}
 
-	const handleSubmit = (e: any) => {
-		e.preventDefault();
-		const data = {
-			name,
-			descripction,
-			email,
-			phone,
-		};
-		console.log(data);
-		fetch(data);
-		setToasterSuccess(true);
+export default function OrganizationForm() {
+	const { register, formState: { errors }, handleSubmit } = useForm<IformOrganization>();
+
+	const onSubmit: SubmitHandler<IformOrganization> = (data) => {
+
+		if (data.name) {
+			console.log('errors', errors)
+			console.log(data);
+			fetch(data);
+		}
 	};
 
 	return (
-		<>
-			<div className="organization-form-container">
-				<form onSubmit={handleSubmit} className="organization-form">
-					<div className="form-group">
-						<label>Nombre de la ONG</label>
-						<input
-							type="text"
-							value={name}
-							onChange={(e) => setName(e.target.value)}
-							required
-						/>
-					</div>
-					<div className="form-group">
-						<label>Descripción</label>
-						<textarea
-							value={descripction}
-							onChange={(e) => setDescripction(e.target.value)}
-							required
-						/>
-					</div>
-					<div className="form-group">
-						<label>Email de contacto</label>
-						<input
-							type="email"
-							value={email}
-							onChange={(e) => setEmail(e.target.value)}
-							required
-						/>
-					</div>
-					<div className="form-group">
-						<label>Teléfono de contacto</label>
-						<input
-							type="tel"
-							value={phone}
-							onChange={(e) => setPhone(e.target.value)}
-						/>
-					</div>
-					<button type="submit" className="submit-button">
-						Enviar
-					</button>
-				</form>
-				{toasterSuccess && (
-					<div className="toaster">
-						<p>¡Formulario enviado con éxito!</p>
-					</div>
-				)}
-			</div>
-		</>
+		<div className="organization-form-container">
+			<form onSubmit={handleSubmit(onSubmit)} className="organization-form">
+				<div className="form-group">
+					<label>Nombre de la Orga</label>
+					<input {...register("name", { required: true, minLength: 4, maxLength: 20 })}
+						aria-invalid={errors.name ? "true" : "false"} />
+						{errors.name?.type === "required" && <p role="alert"> El nombre es obligatorio</p>}
+				</div>
+				<button type="submit" className="submit-button">
+					Enviar
+				</button>
+
+			</form>
+		</div>
 	);
 }
