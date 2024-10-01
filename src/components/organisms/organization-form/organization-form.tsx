@@ -13,6 +13,7 @@ interface IformOrganization {
 
 export default function OrganizationForm() {
 	const { register, formState: { errors }, handleSubmit } = useForm<IformOrganization>();
+	const [toasterSuccess, setToasterSuccess] = useState(false);
 
 	const onSubmit: SubmitHandler<IformOrganization> = (data) => {
 
@@ -20,6 +21,7 @@ export default function OrganizationForm() {
 			console.log('errors', errors)
 			console.log(data);
 			fetch(data);
+			setToasterSuccess(true);
 		}
 	};
 
@@ -66,6 +68,11 @@ export default function OrganizationForm() {
 				</button>
 
 			</form>
+			{toasterSuccess && (
+				<div className='toaster'>
+					<p>Formulario Enviado con éxito!</p>
+				</div>
+			)}
 		</div>
 	);
 }
