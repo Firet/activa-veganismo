@@ -54,6 +54,10 @@
 	font-weight: 500;
 }
 
+.error-message {
+	color: red;
+}
+
 .toaster {
 	background-color: var(--light-active-green);
 	padding: 20px;

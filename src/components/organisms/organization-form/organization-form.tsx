@@ -36,7 +36,7 @@ export default function OrganizationForm() {
 						maxLength: { value: 21, message: 'Debe tener menos de 20 caracteres' },
 					})}
 						aria-invalid={errors.name ? "true" : "false"} />
-					{errors.name && <p role="alert">{errors.name.message}</p>}
+					{errors.name && <p className="error-message" role="alert">{errors.name.message}</p>}
 				</div>
 				<div className="form-group">
 					<label>Descripción</label>
@@ -45,14 +45,14 @@ export default function OrganizationForm() {
 						maxLength: { value: 21, message: 'Debe tener menos de 20 caracteres' },
 					})}
 						aria-invalid={errors.description ? "true" : "false"} />
-					{errors.description && <p role="alert">{errors.description.message}</p>}
+					{errors.description && <p className="error-message" role="alert">{errors.description.message}</p>}
 				</div>
 				<div className="form-group">
 					<label>Email de contacto</label>
 					<input
 						{...register("email", { required: true, pattern: { value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i, message: "Ingresa un correo electrónico válido" } })}
 					/>
-					{errors.email && <p>{errors.email.message}</p>}
+					{errors.email && <p className="error-message" role="alert">{errors.email.message}</p>}
 				</div>
 				<div className="form-group">
 					<label>Teléfono</label>
@@ -60,7 +60,7 @@ export default function OrganizationForm() {
 						{...register("phone",
 							{ required: "El teléfono es obligatorio", pattern: { value: /^\d{9,10}$/, message: "Ingresa un número de teléfono válido" } })}
 					/>
-					{errors.phone && <p>{errors.phone.message}</p>}
+					{errors.phone && <p className="error-message" role="alert">{errors.phone.message}</p>}
 				</div>
 
 				<button type="submit" className="submit-button">
