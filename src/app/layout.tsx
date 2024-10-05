@@ -4,7 +4,6 @@ import { Quicksand } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/templates/header/header';
 import Footer from '@/components/templates/footer/footer';
-import Supabase from '@/supabase/Supabase';
 
 const quicksand = Quicksand({ subsets: ['latin'] });
 
@@ -38,7 +37,6 @@ export default function RootLayout({
 				<Header />
 				<main className="flex flex-col items-center">{children}</main>
 				<Footer />
-				<Supabase />
 			</body>
 		</html>
 	);
