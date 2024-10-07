@@ -2,8 +2,7 @@
 import React, { useState } from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import './organization-form.css';
-import fetch from '@/utils/fetch';
-
+import postOrganizationData from '@/utils/fetch';
 interface IformOrganization {
 	name: string;
 	description: string;
@@ -18,7 +17,7 @@ export default function OrganizationForm() {
 	const onSubmit: SubmitHandler<IformOrganization> = (data) => {
 
 		if (data.name) {
-			fetch(data);
+			postOrganizationData(data.name, data.phone, data.email, data.description);
 			setFormSuccess(true);
 		}
 	};

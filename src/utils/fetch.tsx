@@ -1,19 +1,18 @@
-import axios from 'axios';
+import { createClientComponentClient } from '@supabase/auth-helpers-nextjs';
 
-export default function fetch(data: any) {
-	const url = `https://jsonplaceholder.typicode.com/posts`;
-	const fakeData = {
-		method: 'POST',
-		body: JSON.stringify({
-			title: 'foo',
-			body: 'bar',
-			userId: 1,
-		}),
-		headers: {
-			'Content-type': 'application/json; charset=UTF-8',
-		},
-	};
-	return axios.post(url, fakeData)
-		.then(() => console.info("Hook sent correctly"))
-		.catch(() => console.warn("Hook failed"))
+export default async function postOrganizationData(name: string, phone: number, email: string, description?: string) {
+	const data =
+		{ name, description, email, phone };
+	const supabase = createClientComponentClient();
+	const { error } = await supabase
+		.from("organizations")
+		.insert([
+			data,
+		]);
+
+	if (error) {
+		console.error(error);
+	} else {
+		console.log(data);
+	}
 }
