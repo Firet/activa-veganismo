@@ -76,7 +76,7 @@
 	font-weight: bold;
 }
 .organization-link:hover {
-	color: var(--green-2)
+	color: var(--green-2);
 }
 
 @media (max-width: 992px) {
@@ -94,8 +94,8 @@
 	}
 }
 
-@media (max-width: 768px){
-	.organizations-main-title{
+@media (max-width: 768px) {
+	.organizations-main-title {
 		font-size: 24px;
 	}
 }

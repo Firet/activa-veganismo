@@ -38,7 +38,7 @@ export default function OrganizationCard() {
 								</a>
 							) : (
 								''
-							)}		
+							)}
 							{organization.instagram !== '' ? (
 								<a
 									href={organization.instagram}
