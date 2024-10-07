@@ -54,10 +54,19 @@
 	font-weight: 500;
 }
 
+.error-message {
+	color: red;
+}
+
 .toaster {
 	background-color: var(--light-active-green);
 	padding: 20px;
 	text-align: center;
 	border-radius: 5px;
 	margin-top: 20px;
+  }
+
+  .success-message {
+	text-align: center;
+	margin: 100px;
   }

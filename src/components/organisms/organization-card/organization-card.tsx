@@ -28,13 +28,17 @@ export default function OrganizationCard() {
 							<p className="organization-description">
 								{organization.description}
 							</p>
-							<a
-								href={organization.website}
-								target="_blank"
-								className="organization-link"
-							>
-								Sitio web
-							</a>
+							{organization.website !== '' ? (
+								<a
+									href={organization.website}
+									target="_blank"
+									className="organization-link"
+								>
+									Sitio web
+								</a>
+							) : (
+								''
+							)}		
 							{organization.instagram !== '' ? (
 								<a
 									href={organization.instagram}
@@ -51,13 +55,6 @@ export default function OrganizationCard() {
 							) : (
 								''
 							)}
-							{/* <a
-								href={organization.donationUrl}
-								target="_blank"
-								className="organization-link"
-							>
-								Donar
-							</a> */}
 						</li>
 					))}
 				</ul>

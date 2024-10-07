@@ -4,6 +4,5 @@ export default interface Organization {
 	description: string;
 	logo: string;
 	website: string;
-	donationUrl: string;
 	instagram: string;
 }
