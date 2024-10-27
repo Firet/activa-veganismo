@@ -4,14 +4,30 @@ header {
 	margin-top: 50px;
 }
 
-.navbar {
-	background-color: var(--green-2);
-	width: 70%;
-	border-bottom: solid red;
-	margin: 10px;
+.image-logo{
+	z-index: 5;position: relative;
 }
 
-.navbar a {
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: var(--green-2);
+	border-bottom: solid red;
+	margin: 10px;
+	width: 70%;
+}
+.nav-container-links{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	z-index: 2;
+}
+
+.nav a {
 	margin: 0 1rem;
 	text-decoration: none;
 	color: var(--white);
@@ -19,13 +35,101 @@ header {
 	font-size: 1.2rem;
 	cursor: pointer;
 }
-.navbar a:hover {
+.nav a:hover {
 	font-weight: 600;
 }
 
+.scrolled {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.5s ease;
+}
+
+/* ------------ MENU HAMBURGUESA -------------- */
+
+.menu-toggle{
+    background: none;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+.menu-toggle .line {
+    fill: none;
+    stroke: #bae5c1;
+    stroke-width: 2.3;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.svg{
+    display: none;
+	width: 30px;
+	margin: 25px;
+}
+
+.menu-toggle .line1 {
+    transform-origin: center;
+}
+
+.menu-toggle .line3 {
+    transform-origin: center;
+}
+
+.menu-toggle.open .line1 {
+    transform: rotate(45deg) translate(3.5px, 3.5px);
+}
+
+.menu-toggle.open .line2 {
+    opacity: 0;
+}
+
+.menu-toggle.open .line3 {
+    transform: rotate(-45deg) translate(3px, -3px);
+}
+.menu-fixed{
+	z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    width: 0%;
+}
+    
+@media (max-width: 765px) {
+    .svg{
+        display: flex;
+    }
+    .nav-container-links {
+        width: 100%;
+        flex-direction: column;
+        background-color: var(--green-2);
+        position: absolute;
+        top: -400px;
+        left: 0;
+        padding: 20px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: .8s ease;
+    }
+    .nav-container-links.open {
+        display: flex;
+        height: 300px;
+        top: 0px;
+		padding-top: 50px;
+    }
+    .nav-container-links li {
+        text-align: center;
+        padding: 10px 0;
+    }
+    .menu-fixed{
+        z-index: 10;
+		width: 100%;
+    }
+}
+
+
 @media (max-width: 600px) {
-	.navbar a {
+	.nav a {
 		margin: 0 0.5rem;
 		font-size: 0.8rem;
 	}
 }
+
+
+
