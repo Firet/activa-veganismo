@@ -92,6 +92,13 @@ header {
     width: 0%;
 }
     
+
+@media (max-width: 910px){
+	.nav-container-links a{
+		font-size: 17px;
+	}
+}
+
 @media (max-width: 765px) {
     .svg{
         display: flex;

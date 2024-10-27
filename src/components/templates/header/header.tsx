@@ -43,6 +43,7 @@ export default function Header() {
 					<li><a onClick={() => { scrollToSection('organizations', -20); closeMenu() }}>Organizaciones</a></li>
 					<li><a onClick={() => { scrollToSection('about-us', -30); closeMenu() }}>Quiénes somos</a></li>
 					<li><a onClick={() => { scrollToSection('map'); closeMenu() }}>Mapa</a></li>
+					<li><a onClick={() => { scrollToSection('contact'); closeMenu() }}>Contáctanos</a></li>
 				</ul>
 				<div className='menu-fixed'>
                     <button className={`menu-toggle ${menuOpen ? 'open' : ''}`} onClick={toggleMenu}>
