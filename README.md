@@ -15,12 +15,10 @@ Solución: Una página web que cuente con las siguientes funcionalidades: geoloc
 ## 🔵 ¿Qué se puede hacer en el corto plazo?
 
 -   Mejorar este readme para explicar como correr la app
--   Analizar la arquitectura de la app. Vamos a usar server side o client side rendering?
--   Ver como conectar con una api de mapas (google maps, here maps, open street map)
+-   Conectar con el backend, guardar los datos de las organizaciones que se mandan en el formulario
+-   Hacer las cards de open street map mucho más lindas y amigables para quien usa la app
 -   Mejorar los prototipos de la interfaz gráfica (pedir link de figma)
 -   Se puede ver todas las cosas que faltan hacer en [este tablero de tareas](https://trello.com/invite/b/S8Ra2DQo/ATTI7d56b70516b814625921b34ba0c991c5C6EC6BE0/app-de-voluntariado-vegan)
-
-Este es un proyecto que usa [Next.js](https://nextjs.org/) y es iniciado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## ¿Cómo correr esta app?
 

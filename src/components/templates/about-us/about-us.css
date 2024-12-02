@@ -5,7 +5,7 @@
 	justify-content: center;
 }
 
-.about-us{
+.about-us {
 	max-width: 1200px;
 	min-height: 500px;
 	display: flex;
@@ -14,108 +14,110 @@
 	padding: 30px 0px;
 }
 
-.about-us-image{
+.about-us-image {
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 	width: 40%;
 }
 
 .about-us-image img {
-    width: 100%;
-    height: auto;
-    object-fit: cover; 
+	width: 100%;
+	height: auto;
+	object-fit: cover;
 }
 
-.about-us-container{
+.about-us-container {
 	width: 50%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	gap: 20px;
 }
-.about-us-info{
+.about-us-info {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
 
-.about-us-title , .about-us-subtitle, .about-us-text {
+.about-us-title,
+.about-us-subtitle,
+.about-us-text {
 	color: #fff;
 }
 
-.about-us-title{
+.about-us-title {
 	font-weight: 500;
 	font-size: 30px;
 }
 
-.about-us-subtitle{
+.about-us-subtitle {
 	font-size: 22px;
 }
 
-.about-us-text{
+.about-us-text {
 	font-size: 17px;
 }
 
 @media (min-width: 1400px) {
-	.about-us-title{
+	.about-us-title {
 		font-size: 38px;
 	}
-	.about-us-subtitle{
+	.about-us-subtitle {
 		font-size: 28px;
 	}
-	.about-us-text{
+	.about-us-text {
 		font-size: 18px;
 	}
 }
 
-@media (max-width: 992px){
-	.about-us-image{
+@media (max-width: 992px) {
+	.about-us-image {
 		width: 45%;
 	}
-	.about-us-container{
+	.about-us-container {
 		width: 45%;
 	}
 }
 
-@media (max-width: 768px){
-	.about-us{
+@media (max-width: 768px) {
+	.about-us {
 		flex-direction: column;
 		padding: 30px 0px;
 	}
-	.about-us-image{
+	.about-us-image {
 		width: 80%;
 	}
-	.about-us-container{
+	.about-us-container {
 		width: 80%;
 	}
-	.about-us-title{
+	.about-us-title {
 		text-align: center;
 		margin-top: 20px;
 		font-size: 24px;
 	}
 }
 
-@media (max-width: 576px){
-	.about-us-title{
+@media (max-width: 576px) {
+	.about-us-title {
 		font-size: 25px;
 	}
-	.about-us-subtitle{
+	.about-us-subtitle {
 		font-size: 18px;
 	}
-	.about-us-text{
+	.about-us-text {
 		font-size: 16px;
 	}
 }
 
-@media (max-width: 380px){
-	.about-us-title{
+@media (max-width: 380px) {
+	.about-us-title {
 		font-size: 20px;
 	}
-	.about-us-subtitle{
+	.about-us-subtitle {
 		font-size: 16px;
 		font-weight: 500;
 	}
-	.about-us-text{
+	.about-us-text {
 		font-size: 15px;
 	}
 }

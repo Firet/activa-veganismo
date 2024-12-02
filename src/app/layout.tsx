@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Script from 'next/script'
+import Script from 'next/script';
 import { Quicksand } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/templates/header/header';

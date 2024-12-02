@@ -9,11 +9,13 @@
 	flex-direction: column;
 }
 
-.organization-form input, .organization-form textarea{
+.organization-form input,
+.organization-form textarea {
 	outline: none;
 }
 
-.organization-form input:hover, .organization-form textarea:hover{
+.organization-form input:hover,
+.organization-form textarea:hover {
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
@@ -64,9 +66,9 @@
 	text-align: center;
 	border-radius: 5px;
 	margin-top: 20px;
-  }
+}
 
-  .success-message {
+.success-message {
 	text-align: center;
 	margin: 100px;
-  }
+}

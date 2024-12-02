@@ -3,13 +3,14 @@ import './form-section.css';
 import OrganizationForm from '@/components/organisms/organization-form/organization-form';
 
 export default function FormSection() {
-    return (
-        <section className="form-section">
-            <span className='form-span'></span>
-            <h1 className="form-title">
-                ¿Querés sumar tu organización? Dejanos tus datos para recibir más info
-            </h1>
-            <OrganizationForm />
-        </section>
-    );
+	return (
+		<section className="form-section">
+			<span className="form-span"></span>
+			<h1 className="form-title">
+				¿Querés sumar tu organización? Dejanos tus datos para recibir
+				más info
+			</h1>
+			<OrganizationForm />
+		</section>
+	);
 }

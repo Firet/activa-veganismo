@@ -1,19 +1,19 @@
-.map-section-title{
-    color: var(--green-2);
-    display: flex;
-    text-align: center;
-    font-weight: 500;
-    font-size: 29px;
-    padding: 20px;
-    margin-top: 35px;
+.map-section-title {
+	color: var(--green-2);
+	display: flex;
+	text-align: center;
+	font-weight: 500;
+	font-size: 29px;
+	padding: 20px;
+	margin-top: 35px;
 }
 
 .open-street-map-container {
-    margin-bottom: 5rem;
+	margin-bottom: 5rem;
 }
 
-@media (max-width: 768px){
-	.map-section-title{
+@media (max-width: 768px) {
+	.map-section-title {
 		font-size: 24px;
 	}
 }
