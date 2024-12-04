@@ -103,6 +103,12 @@ header {
     .svg{
         display: flex;
     }
+
+    .nav {
+        opacity: 0;
+        transition: 2s ease-in;
+    }
+
     .nav-container-links {
         width: 100%;
         flex-direction: column;
@@ -112,7 +118,11 @@ header {
         left: 0;
         padding: 20px 0;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        transition: .8s ease;
+        transition: .3s ease-in;
+    }
+
+    .nav.open {
+        opacity: 1;
     }
     .nav-container-links.open {
         display: flex;
