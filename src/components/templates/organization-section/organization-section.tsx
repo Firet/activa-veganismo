@@ -19,7 +19,7 @@ export default function OrganizationSection() {
 						name={organization.name}
 						description={organization.description}
 						website={organization.website}
-						instagram={organization.website}
+						instagram={organization.instagram}
 					/>)}
 			</section>
 		</>
