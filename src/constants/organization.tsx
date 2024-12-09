@@ -59,7 +59,7 @@ const organizations: Organization[] = [
 		id: 7,
 		name: 'Voicot',
 		description:
-			'Movimiento por la liberación animal y de la tierra. Hacen investagaciones en granjes y mataderos, difusiones y escritos',
+			'Movimiento por la liberación animal y de la tierra. Hacen investagaciones en granjas y mataderos, difusiones y escritos',
 		logo: './voicot-logo.png',
 		website: 'https://www.voicot.com/',
 		instagram: 'https://www.instagram.com/voicot/?hl=es',
