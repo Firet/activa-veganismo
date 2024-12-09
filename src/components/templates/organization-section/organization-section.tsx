@@ -4,9 +4,9 @@ import OrganizationCard from '@/components/organisms/organization-card/organizat
 export default function OrganizationSection() {
 	return (
 		<section id="organizations" className="flex flex-col items-center">
-			<h1 className="organizations-main-title">
+			<h2 className="organizations-main-title">
 				¿Con cuál organización te identificás más?
-			</h1>
+			</h2>
 			<OrganizationCard />
 		</section>
 	);

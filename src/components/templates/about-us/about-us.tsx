@@ -17,12 +17,12 @@ export default function AboutUs() {
 					/>
 				</div>
 				<div className="about-us-container">
-					<h1 className="about-us-title">
+					<h2 className="about-us-title">
 						¿Q
 						<span className="border-b-2 border-red-500 border-solid">
 							uiénes Somos?
 						</span>
-					</h1>
+					</h2>
 					<div className="about-us-info">
 						<h2 className="about-us-subtitle">Sobre nosotres</h2>
 						<p className="about-us-text">
