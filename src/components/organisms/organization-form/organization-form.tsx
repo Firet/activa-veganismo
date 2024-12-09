@@ -31,7 +31,7 @@ export default function OrganizationForm() {
 	};
 
 	return (
-		<div id='contact' className="organization-form-container">
+		<div id="contact" className="organization-form-container">
 			{!formSuccess && (
 				<form
 					onSubmit={handleSubmit(onSubmit)}
