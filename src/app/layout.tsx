@@ -8,7 +8,7 @@ import Footer from '@/components/templates/footer/footer';
 const quicksand = Quicksand({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: 'App Voluntariado vegano',
+	title: 'Activá Veganismo',
 	description: 'Una app para encontrar el mejor lugar para voluntariar',
 };
 
