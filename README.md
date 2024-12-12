@@ -1,5 +1,4 @@
-# 🟢App de voluntariado vegan
-
+# 🟢Activá Veganismo
 Una app para encontrar el mejor lugar para voluntariar.
 
 ## 🟣Idea principal
