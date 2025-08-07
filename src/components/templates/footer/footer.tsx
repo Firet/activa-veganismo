@@ -7,7 +7,8 @@ export default function Footer() {
 	return (
 		<footer className="footer">
 			Copyleft {currentYear} | Diseñado y desarrollado por Damián
-			Federico, Evelyn Di Salvo y Giselle San German
+			Federico, Evelyn Di Salvo y Giselle San German.
+		    Tester y mantenimiento de calidad: Ricardo López.
 		</footer>
 	);
 }
